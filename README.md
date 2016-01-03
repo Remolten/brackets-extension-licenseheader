@@ -12,6 +12,7 @@ This extension is based on the "Copyright extension" by Joe Ireland (https://git
 * Select **File > Extension Manager**
 * Search **JamezSoftware licenseheader**
 * Click **Install**
+
 ### Installation (from url)
 * Select **File > Extension Manager**
 * Click **Install from URL**
