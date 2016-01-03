@@ -1,0 +1,22 @@
+{
+    "name": "jamezsoftware.licenseHeader",
+    "title": "Insert License Header",
+    "description": "An extension to provide a quick way to insert the license copyright notice at the top of your document. Based on the \"Copyright extension\" by Joe Ireland at https://github.com/joeireland/brackets-extension-copyright",
+    "homepage": "http://jamezsoftware.altervista.org/LicenseHeaderExtension/",
+    "author": "JamezSoftware <jamezsoftware@gmail.com>",
+    "version": "1.0",
+    "license": "MIT and GPLv3",
+    "engines": {
+        "brackets": ">=0.33.0"
+    },
+    "keywords" : [
+        "brackets-extension",
+        "document-header",
+        "copyright",
+        "license"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JamezSoftware/brackets-extension-licenseheader"
+    }
+}
