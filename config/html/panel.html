@@ -1,0 +1,57 @@
+<!--
+
+Copyright (C) Sun Jan 03 2016 JamezSoftware <jamezsoftware@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!--
+This extension is based on the "copyright extension" by Joe Ireland.
+See his copyright notice and REAMDE.md for more information.
+-->
+
+<div id="jamezsoftware-licenseHeader-panel" class="bottom-panel vert-resizable top-resizer">
+    <div class="toolbar clearfix">
+        <div class="title">Copyright Configuration</div>
+        <div class="right-area"><button id="jamezsoftware-licenseHeader-save" class="btn">Save</button></div>
+        <button id="jamezsoftware-licenseHeader-close" class="close">&times;</button>
+    </div>
+
+    <div class="form resizable-content">
+        <form>
+            <label>Author</label>
+            <input id="jamezsoftware-licenseHeader-author" type="text">
+            <br>
+            <label>Author E-Mail (optional)</label>
+            <input id="jamezsoftware-licenseHeader-email" type="text">
+            <br>
+            <label>Comment Command</label>
+            <select id="jamezsoftware-licenseHeader-commentCmd">
+                <option value="edit.blockComment">edit.blockComment</option>
+                <option value="edit.lineComment">edit.lineComment</option>
+            </select><br>
+            <label>License:</label>
+            <select id="jamezsoftware-licenseHeader-licenseCmd">
+                <option value="edit.MITLicense">MIT License</option>
+                <option value="edit.ApacheLicense">Apache License v2.0</option>
+                <option value="edit.GPLv2License">GPL v2.1 License</option>
+                <option value="edit.GPLv3License">GPL v3 License</option>
+                <option value="edit.LGPLv2License">LGPL v2 License</option>
+                <option value="edit.LGPLv3License">LGPL v3 License</option>
+            </select>
+            <br>
+            <label>Copyright Text (leave empty to use the presets)</label>
+            <textarea id="jamezsoftware-licenseHeader-text" class="textarea"></textarea>
+        </form>
+    </div>
+</div>
