@@ -8,12 +8,17 @@ You can also set the license to insert (currently are supported Apache v2.0, MIT
 Copyright date is obtained automatically.
 More licenses will be added in the future.
 This extension is based on the "Copyright extension" by Joe Ireland (https://github.com/joeireland/brackets-extension-copyright)
-### Installation
+### Installation (from extension manager)
+* Select **File > Extension Manager**
+* Search **JamezSoftware licenseheader**
+* Click **Install**
+### Installation (from url)
 * Select **File > Extension Manager**
 * Click **Install from URL**
 * Enter the following GitHub repository URL
-* https://github.com/joeireland/brackets-extension-copyright
+* https://github.com/JamezSoftware/brackets-extension-licenseheader
 * Click **Install**
+
 
 ### How To Use
 Press the **"Alt+H"** HotKey or select **"Edit > Insert Copyright"** menu item.
