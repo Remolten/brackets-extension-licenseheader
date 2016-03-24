@@ -24,3 +24,6 @@ This extension is based on the "Copyright extension" by Joe Ireland (https://git
 ### How To Use
 Press the **"Alt+H"** HotKey or select **"Edit > Insert Copyright"** menu item.
 To change configuration, click the icon in the left panel of Brackets, or press the **"Alt+C"** HotKey, or select **"Edit > Config Copyright"** menu item.
+
+### Note:
+The website page is not ready yet, it will be fully online in a few days
