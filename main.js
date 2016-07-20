@@ -97,8 +97,13 @@ define(function (require, exports, module) {
         var editor = EditorManager.getFocusedEditor();
         
         if (editor) {
-            editor.document.replaceRange(data.text + "\n", {line: 0, ch: 0});
-            editor.setSelection({line: 0, ch: 0}, {line: data.length, ch: data.width}, true);
+            // Adds a space after each comment symbol to enhance readability
+            var licenseText = " " + data.text.split("\n").join("\n ") + "\n\n";
+            
+            editor.document.replaceRange(licenseText, {line: 0, ch: 0});
+            
+            // Add 1 to data.length so there is an extra comment line at the end, to enhance readability
+            editor.setSelection({line: 0, ch: 0}, {line: data.length + 1, ch: data.width}, true);
             CommandManager.execute(data.command).done(function () {
                 editor.setCursorPos({line: 0, ch: 0});
             });
